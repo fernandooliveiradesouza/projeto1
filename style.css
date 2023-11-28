@@ -1,0 +1,154 @@
+*{ font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+    div{
+        height: 100vh;
+        width: 100vw;
+
+    } 
+    header{
+        margin-left:60px;
+        margin-top: 20px;
+        cursor: pointer;
+        font-size: 13px;
+        color: #515151;
+        padding: 10px 0 10px;
+    }
+        
+    .foto-1{
+        width: 350px;
+        height:300px;
+        margin-left:60px;
+        display: inline-block;
+        margin-top: 80px;
+        cursor: pointer;
+           
+    }
+    
+    
+    h1{
+        display: inline-block;
+        position: absolute;
+        margin-left: 80px;
+        margin-top: 9%;
+        font-size:60px ;
+        color: #515151;
+        cursor: pointer;
+        
+    }
+h1:hover{
+    color: #665AE1;
+}
+
+
+
+    h2{display: inline-block;
+    position: absolute;
+    margin-left:90px;
+    margin-top: 15%;
+    font-size: 30px;
+    color: #515151;
+    cursor: pointer;
+    font-weight: lighter;
+    
+    }
+    h2:hover{
+        color: #665AE1;
+    }
+
+    .caixa{
+        height: 500px;
+        width: 500px;
+        display: inline-block;
+         position: absolute;
+        margin-left:40px;
+        margin-top:20% ;
+        color: #515151;
+        font-weight: 10px;
+        align-items: right;
+    }
+    button{
+background: #ADFF00;
+border-radius:50px 
+;
+height: 35px;
+width:100px;
+font-weight: bold; 
+cursor: pointer;
+}
+.botão{
+    background: #665AE1;
+border-radius: 50px;
+height: 30px;
+width: 80px;
+font-weight: 100;
+margin-left: 5px;
+}
+ 
+p:hover{
+    color: #665AE1;
+}
+ 
+ button:active{
+    background:#665AE1 
+ }
+ button:hover{
+    opacity: 0.8;
+ }
+ 
+ @media screen and  ( max-width: 600px) {
+
+ header{
+    display: none;
+
+ }
+ p{
+    display: none;
+ }
+ h1{
+    display: inline-block;
+    height: 3px;
+    font-size: 50px;
+ }
+
+ h2{
+    display: inline-block;
+ font-size: 25px;
+ margin-top:22%;
+align-content: center;
+
+
+}
+
+div{
+    height: 25vh;
+    width: 25vw;
+}
+
+button{
+    display: inline-block;
+    margin-top: 42px;
+    margin-left: 75px;
+    margin-bottom: 50px;
+    
+    
+    
+}
+caixa{
+    display: inline-block;
+}
+
+ }
+
+
+ 
+     
+
+
+
